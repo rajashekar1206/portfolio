@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+TAS+Beginner&family=Lobster&display=swap');
+
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: black;
+    justify-content: space-between;
+}
+.navbar-left{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.a-ele{
+    padding: 10px;
+    
+    margin: 5px;
+
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+     
+
+}
+.home-right{
+    width:50vw;
+    padding: 30px;
+    padding-left: 100px;
+    
+}
+.home-left{
+    height: 30px;
+    width: 50vw;
+    text-align: right;
+    padding-right: 100px;
+    font-family: 'Playfair Display', serif;
+}
+.img-1{
+    height: 400px;
+}
+
+.services{
+    text-align: center;
+    padding: 100px;
+}
+.ser-h1{
+    font-family: 'Libre Baskerville', serif;
+    color:rgb(70, 220, 70);
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-style: italic;
+}
+.service-card{
+    border: 2px solid rgb(95, 210, 95);
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+}
+.service-sub-con{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+
+}
+.sc-p{
+    padding: 10px;
+}
+.sc-h1{
+    font-family: 'Playfair Display', serif;
+    font-size:25px;
+}
+.contact{
+    text-align: center;
+}
+.contact-info{
+    font-family: 'Playfair Display', serif;   
+}
+.img{
+    height:35px;
+}
